@@ -70,13 +70,11 @@ body {
     padding: 70px 145px;
     justify-items: center;
 }
-
 .player {
     height: 474px;
     width: 300px;
     padding: 15px;
 }
-
 .player__pic {
     width: 100%;
 }
@@ -90,4 +88,33 @@ body {
 .player__info__bio {
     color: #6C6C6C;
     line-height: 26px;
+}
+
+/*----------------------*\
+  Footer Section Styles
+\*----------------------*/
+
+footer {
+    text-align: center;
+    margin: 63px;
+}
+
+.footer__img {
+    height: 110px;
+    width: 484px;
+}
+
+.footer__icons__icon {
+    color: #969BAB;
+    background-color: #E6E6E7;
+    height: 17px;
+    width: 17px;
+    border-radius: 16px;
+    padding: 7.5px;
+    margin: 20px 7px;
+}
+
+.footer__text {
+    font-size: 18px;
+    margin: 0;
 }
