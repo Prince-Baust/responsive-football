@@ -55,6 +55,7 @@ body {
     width: 556px;
     transition: transform 2s ease-in-out;
 }
+
 .top-section:hover .top-section__img {
     transform: rotateY(360deg);
 }
@@ -78,14 +79,12 @@ body {
 .player__pic {
     width: 100%;
 }
-
 .player__name {
     color: #18191F;
     font-size: 28px;
     line-height: 40px;
     margin: 16px 0 10px;
 }
-
 .player__bio {
     color: #6C6C6C;
     line-height: 26px;
@@ -104,7 +103,6 @@ footer {
     height: 110px;
     width: 484px;
 }
-
 .footer__icon {
     color: #969BAB;
     background-color: #E6E6E7;
@@ -118,4 +116,79 @@ footer {
 .footer__text {
     font-size: 18px;
     margin: 0;
+}
+
+/*----------------------*\
+  Gallery Section Styles
+\*----------------------*/
+
+.gallery__title {
+    font-size: 3em;
+    padding: 70px 145px 0;
+    color: #2D25A0;
+}
+
+.row-1 {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 5px;
+
+}
+
+.gallery__img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.gallery__img:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px 5px;
+}
+
+.row-2 img {
+    height: 203px;
+    width: 270px;
+}
+
+/*----------------------*\
+  Download Section Styles
+\*----------------------*/
+
+.download {
+    margin: 100px 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download__btn {
+    background-image: linear-gradient(to right, black 0%, black 51%, darkgray 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 22px;
+    margin: 10px;
+    padding: 15px 45px;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 400px;
+}
+
+.download__btn:hover {
+    background-position: right center;
+    color: white;
+    text-decoration: none;
+}
+
+.download__btn i {
+    margin-right: 40px;
+    font-size: 50px;
 }
