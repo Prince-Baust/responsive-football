@@ -79,15 +79,17 @@ body {
     width: 100%;
 }
 
-.player__info__name {
+.player__name {
     color: #18191F;
     font-size: 28px;
     line-height: 40px;
+    margin: 16px 0 10px;
 }
 
-.player__info__bio {
+.player__bio {
     color: #6C6C6C;
     line-height: 26px;
+    margin: 0;
 }
 
 /*----------------------*\
@@ -98,12 +100,10 @@ footer {
     text-align: center;
     margin: 63px;
 }
-
 .footer__img {
     height: 110px;
     width: 484px;
 }
-
 .footer__icons__icon {
     color: #969BAB;
     background-color: #E6E6E7;
@@ -113,7 +113,6 @@ footer {
     padding: 7.5px;
     margin: 20px 7px;
 }
-
 .footer__text {
     font-size: 18px;
     margin: 0;
