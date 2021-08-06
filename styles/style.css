@@ -38,12 +38,19 @@ body {
 \*------------------*/
 
 .top-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     background-color: #2D25A0;
     height: 677px;
     width: 100%;
 }
+
+.top-section__left {
+    margin-left: 23%;
+}
+
 .top-section__title {
     color: white;
     font-size: 64px;
@@ -191,4 +198,20 @@ footer {
 .download__btn i {
     margin-right: 40px;
     font-size: 50px;
+}
+
+/*----------------------*\
+  Media Query Styles
+\*----------------------*/
+
+/*Mobile Devices*/
+
+@media only screen and (max-width: 360px) {
+    .top-setion {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
