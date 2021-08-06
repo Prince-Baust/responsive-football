@@ -30,7 +30,7 @@ body {
     margin: 0 8px;
 }
 .box-shadow {
-    box-shadow: 0 0 40px 5px rgba(0,0,0,0.15);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
 /*------------------*\
@@ -66,13 +66,28 @@ body {
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px 45px;
+    gap: 27px 30px;
+    padding: 70px 145px;
+    justify-items: center;
 }
+
 .player {
     height: 474px;
-    width: 330px;
+    width: 300px;
     padding: 15px;
 }
+
 .player__pic {
     width: 100%;
+}
+
+.player__info__name {
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.player__info__bio {
+    color: #6C6C6C;
+    line-height: 26px;
 }
